@@ -1,0 +1,11 @@
+#cloud-config
+repo_update: true
+repo_upgrade: all
+
+packages:
+ - python-dev
+ - python-pip
+ - git
+ - libffi-dev
+runcmd:
+ - curl https://raw.githubusercontent.com/telusdigital/forge/master/bootstrap.py | python
