@@ -1,4 +1,6 @@
-# forge
+# forge (Python3)
+This repo contains an upgraded version of Forge which uses Python 3.
+
 
 ### IMPORTANT NOTE
 The telus/forge tooling is deprecated.
