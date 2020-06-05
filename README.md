@@ -78,7 +78,7 @@ _Resource tags are explicit statements of intent, and discovery stops there. Eve
 If running arbitrary code from the internet with root privileges and no human oversight excites you, this should do it.
 
 ```
-curl https://raw.github.com/colstrom/forge/master/bootstrap.py | python
+curl https://raw.githubusercontent.com/telus/forge-python3/master/bootstrap.py | python
 ```
 
 ## How to Use (Recommended)

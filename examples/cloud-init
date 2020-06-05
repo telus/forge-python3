@@ -8,4 +8,4 @@ packages:
  - git
  - libffi-dev
 runcmd:
- - curl https://raw.githubusercontent.com/telusdigital/forge/master/bootstrap.py | python
+ - curl https://raw.githubusercontent.com/telus/forge-python3/master/bootstrap.py | python
