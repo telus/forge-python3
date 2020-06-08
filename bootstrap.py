@@ -306,7 +306,7 @@ def preconfigure():
     configure_ansible()
     configure_environment()
     get_credentials()
-    download_from_s3('bin/reforge', '/usr/local/sbin/reforge')
+    download_from_s3('bin/reforge-python3', '/usr/local/sbin/reforge')
     set_permissions(['/usr/local/sbin/reforge'], 0o500)
 
 
